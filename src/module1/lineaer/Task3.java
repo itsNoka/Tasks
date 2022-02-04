@@ -17,12 +17,13 @@ public class Task3 {
         System.out.println("введите y");
         float y = scanner.nextFloat();
 
-        System.out.println(method( float x, float y));
+        System.out.println(method(x, y));
 
     }
 
     public static float method(float x, float y) {
-        return ((sin(x) + cos(y)) / (cos(x - sin(y)) * tan(x * y);
+        return (float) ((sin(x) + cos(y)) / (cos(x) - sin(y)) * tan(x*y));
     }
-
 }
+
+

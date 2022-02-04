@@ -5,6 +5,9 @@
 package module1.lineaer;
 
 import java.util.Scanner;
+
+import static java.lang.Math.sqrt;
+
 public class Task2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -18,5 +21,9 @@ public class Task2 {
             System.out.println(method2(a,b,c));
 
     }
+    public static  double method2( double a,double b, double c) {
+        return (b + sqrt((b * b ) + 4 * a * c)/ 2 * a) - (a * a * a) * c +((1 / b) * (1 / b));
+    }
+
 
 }

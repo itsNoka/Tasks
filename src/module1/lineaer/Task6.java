@@ -15,7 +15,7 @@ public class Task6 {
         System.out.println("точка с коррдинатами x = " + x + " и y = " + y + " - " + coordinates(x, y));
     }
 
-    public static boolean coordinates(double x, double y) {
+    public static boolean coordinates(double x, double y) { //coordinates из sout  выше
         if (x >= -4 && x <= 4 && y >= -3 && y <= 0) {  // логичекое или &&, логическое и &
             return true;
         } else if (x >= -2 && x <= 2 && y >= 0 && y <= 4) {

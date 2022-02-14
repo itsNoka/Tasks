@@ -18,12 +18,9 @@ public class Task3 {
         float y = scanner.nextFloat();
 
         System.out.println(method(x, y));
-
     }
 
     public static float method(float x, float y) {
-        return (float) ((sin(x) + cos(y)) / (cos(x) - sin(y)) * tan(x*y));
+        return (float) ((sin(x) + cos(y)) / (cos(x) - sin(y)) * tan(x * y));
     }
 }
-
-

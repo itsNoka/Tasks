@@ -8,16 +8,15 @@ import java.util.Scanner;
 
 public class Task1 {
     public static void main(String[] args) {
-    Scanner scanner= new Scanner(System.in);
-    int a= scanner.nextInt();
-    int b= scanner.nextInt();
-    int c= scanner.nextInt();
+        Scanner scanner = new Scanner(System.in);
+        int a = scanner.nextInt();
+        int b = scanner.nextInt();
+        int c = scanner.nextInt();
 
-        System.out.println(method (a,b,c));
-
-    }
-    public static double method (int a, int b, int c){
-        return  ( (a - 3 ) * b / 2) + c;
+        System.out.println(calculateFunction(a, b, c));
     }
 
+    public static double calculateFunction(int a, int b, int c) {
+        return ((a - 3) * b / 2) + c;
+    }
 }

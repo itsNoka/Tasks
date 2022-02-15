@@ -17,10 +17,10 @@ public class Task3 {
         System.out.println("введите y");
         float y = scanner.nextFloat();
 
-        System.out.println(method(x, y));
+        System.out.println(calculatedFunction(x, y));
     }
 
-    public static float method(float x, float y) {
+    public static float calculatedFunction(float x, float y) {
         return (float) ((sin(x) + cos(y)) / (cos(x) - sin(y)) * tan(x * y));
     }
 }

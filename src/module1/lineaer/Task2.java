@@ -18,13 +18,10 @@ public class Task2 {
         System.out.println("введите c");
         double c = scanner.nextDouble();
 
-        System.out.println(method2(a, b, c));
-
+        System.out.println(calculedFunction(a, b, c));
     }
 
-    public static double method2(double a, double b, double c) {
+    public static double calculedFunction(double a, double b, double c) {
         return (b + sqrt((b * b) + 4 * a * c) / 2 * a) - (a * a * a) * c + ((1 / b) * (1 / b));
     }
-
-
 }

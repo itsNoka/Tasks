@@ -7,13 +7,13 @@ public class Task5 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("введите х");
         double x = scanner.nextInt();
-        System.out.println("x = " +x);
+        System.out.println("x = " + x);
         double f;
         if (x <= 3) {
             f = (x * x - 3 * x + 9);
         } else {
             f = 1 / (x * x * x + 6);
         }
-        System.out.println("ответ " +f);
+        System.out.println("ответ " + f);
     }
 }
